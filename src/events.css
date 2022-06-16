@@ -1,0 +1,101 @@
+.is-sticky {
+  text-align: start;
+  position: fixed;
+  top: 10px;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.eventDate {
+  color: rgb(187, 38, 187);
+  font-weight: 700;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+.header {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: start;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.badge {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.cart-icon {
+  transform: scale(1.5);
+}
+
+.title {
+  width: 100%;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 650;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.card-icon {
+  transform: scale(1.5);
+  color: rgb(187, 38, 187);
+}
+.add-icon {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.title-container {
+  margin-left: 1rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.card-image {
+  width: 19.9rem;
+  height: 25rem;
+}
+.card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  padding: 0rem;
+}
+.card-body {
+  margin: 0rem;
+  padding: 0rem;
+}
+.card-bottom {
+  margin-left: 1rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.locaction-text {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 650;
+}
+.modal-container {
+  display: flex;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgb(160, 155, 155);
+}
+.modal-icon {
+  margin-left: auto;
+}
+.modal-text {
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+.modal-body {
+  height: 35vh;
+  overflow-y: scroll;
+}
+
+.modal-img {
+  margin-bottom: 0.3rem;
+  height: 4rem;
+  width: 3rem;
+}
